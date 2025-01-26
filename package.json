@@ -1,0 +1,16 @@
+{
+  "name": "indigov-project",
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --prefix packages/frontend run dev"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.1.3"
+  }
+}
