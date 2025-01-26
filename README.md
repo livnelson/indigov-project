@@ -106,11 +106,9 @@ The app will be available at http://localhost:5173.
 - GET /api/constituents: Fetch all constituents.
 - GET /api/constituents/new: Fetch constituents created in the last 7 days.
 - POST /api/constituents: Add a new constituent.
-- DELETE /api/:id', deleteConstituent: Delete a constituent.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgments
 Frontend: React, TypeScript
 Backend: Express.js, PostgreSQL
