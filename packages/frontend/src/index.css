@@ -1,0 +1,11 @@
+body {
+  background-color: #fbe8d9; /* Ensure a visible background */
+  color: #330072; /* Text color */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

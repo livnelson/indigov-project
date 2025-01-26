@@ -1,0 +1,59 @@
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: #fbe8d9;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'IM Fell English', serif;
+  color: #330072;
+}
+
+/* Heading styling */
+.heading {
+  font-family: 'IM Fell English', serif;
+  text-align: center;
+  color: #330072;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #330072;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #1f0049;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: turquoise;
+  color: #333;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 20px;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #00b3b3;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.constituents-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Constituent list table */
+.constituents-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.constituents-table th,
+.constituents-table td {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.constituents-table th {
+  background-color: #330072;
+  color: white;
+}
+
+.constituents-table tr:nth-child(even) {
+  background-color: #fbe8d9;
+}
+
+/* Search container */
+
+.controls-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjust spacing between elements */
+  gap: 1rem; /* Add spacing between search bar and buttons */
+  margin-bottom: 1.5rem; /* Add some space below the controls */
+}
+
+.search-input {
+  flex: 1; /* Allow the search bar to grow and take available space */
+  max-width: 300px; /* Optional: Limit the max width */
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 0.5rem; /* Add spacing between buttons */
+}
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 1rem;
+}
+
+/* Icon Styling */
+.delete-icon {
+  vertical-align: middle;
+  color: orangered;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  color: darkred;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Messages */
+.messages-container {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 2rem; 
+}
+
+.messages-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out the title and button */
+  margin-bottom: 1rem;
+}
