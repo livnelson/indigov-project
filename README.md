@@ -101,6 +101,10 @@ npm run dev
 ```
 The app will be available at http://localhost:5173.
 
+## Sample Login Credentials
+Email: user@example.com </br>
+Password: password123
+
 ## API Endpoints
 - Constituents
 - GET /api/constituents: Fetch all constituents.
